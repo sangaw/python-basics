@@ -1,0 +1,15 @@
+# Userful Python commands when setting up a new environment
+
+conda create --name <env_name> # python=<python_version>
+conda activate <environment-name>
+conda info --envs
+conda deactivate
+
+# Python Installations for data science projects
+conda install numpy
+conda install scikit-learn
+conda install scikit-learn=1.2.2
+conda install scipy
+
+
+
