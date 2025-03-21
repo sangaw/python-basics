@@ -11,5 +11,7 @@ conda install scikit-learn
 conda install scikit-learn=1.2.2
 conda install scipy
 
+# pip command to create env
+python3 -m venv enexis-model-run-rd
 
 
