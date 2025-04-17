@@ -14,4 +14,14 @@ conda install scipy
 # pip command to create env
 python3 -m venv enexis-model-run-rd
 
+# For Enexis Env
+conda create -n model-run-tf_env python=3.10
+conda install numpy=1.26.4
+conda install pandas matplotlib scipy scikit-learn statsmodels xgboost joblib
+conda install -c conda-forge prophet
+conda install polars
+conda install -c conda-forge icecream
+conda install -c conda-forge tensorflow
+
+
 
