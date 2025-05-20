@@ -23,5 +23,8 @@ conda install polars
 conda install -c conda-forge icecream
 conda install -c conda-forge tensorflow
 
+conda create --name new_env_name --clone old_env_name
+
+
 
 
