@@ -16,6 +16,8 @@ git push origin main
 
 # pip command to create env
 python3 -m venv enexis-model-run-rd
+pip install -r requirements.txt
+python3 -m pip install --upgrade pip
 
 # For Enexis Env
 conda create -n model-run-tf_env python=3.10
