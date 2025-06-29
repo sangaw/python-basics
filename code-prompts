@@ -1,0 +1,3 @@
+# For creating a project
+
+Hi - I want to build a python project to test candlestick patterns. FIrst step is to write a python code to get NIFTY day price - open, low, high and close and then work out which candle it is. For this, we will have src package for the code, test package for the code, gitingore and README.md file
