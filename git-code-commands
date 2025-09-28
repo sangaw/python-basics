@@ -1,0 +1,8 @@
+# 1. Stage all changes for the commit
+git add .
+
+# 2. Commit the staged changes with a descriptive message
+git commit -m "Refactor: Update Mistral script to use ctransformers"
+
+# 3. Push the local commits to the 'main' branch on the 'origin' remote
+git push origin main
