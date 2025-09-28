@@ -31,5 +31,8 @@ conda install -c conda-forge tensorflow
 conda create --name new_env_name --clone old_env_name
 
 
+Set-ExecutionPolicy -Scope Process RemoteSigned
+.\.venv\Scripts\Activate.ps1  
+
 
 
